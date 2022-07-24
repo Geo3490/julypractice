@@ -1,5 +1,9 @@
 package com.practice;
 
+//STRINGS ARE REFERENCE TYPE IN JAVA//
+//STRINGS ARE IMMUTABLE AS ANY REFERENCE TYPE IT WILL STORE DATA IN OBJECT//
+
+//PRIMITIVE VALUES ARE COMPLETELY INDEPENDENT WHERE REFERENCE IS DATA STORED TO THAT CLASS//
 /*public class Main {
     public static void main (String[] args){
         byte georgeAge = 32;
@@ -14,6 +18,7 @@ package com.practice;
                 //EXAMPLE PRACTICE JULY 2022//
 //Use Primitive Types As Listed Below To Store Simple Values.
 
+/*
 public class Main {
     public static void main (String[] args){
         byte age = 32;
@@ -23,5 +28,45 @@ public class Main {
         boolean isEligible = false;
 
         System.out.println(letter+"\n" + price);
+    }
+}*/
+
+
+//REFERENCE TYPE IS TO STORE COMPLEX OBJECTS WHERE PRIMITIVE IS SIMPLE VALUES//
+//import java.util.Date;
+//
+//public class Main {
+//    public static void main (String[] args){
+//        //REFERENCE TYPE EXAMPLE DATE//
+//        Date now = new Date();
+//        System.out.println(now);
+//    }
+//}
+
+//IN DEPTH REFERENCE EXAMPLE OF ALLOCATING MEMORY USING POINT CLASS//
+//import java.awt.*;
+//
+//public class Main{
+//    public static void main(String[] args){
+//        Point point1 = new Point(1,1);
+//        Point point2 = point1;
+//        point1.x = 2;
+//
+//        System.out.println(point1);
+//
+//    }
+//}
+
+public class Main{
+    public static void main(String[] args){
+        String message = "Hello world my name is George";
+
+            //EVEN WITH CHANGE TO METHOD IT STILL REMAINS ORIGINAL IN MEMORY//
+        System.out.println(message.toUpperCase());
+        System.out.println(message.length());
+
+        //EXAMPLE OF REMAINS A STORAGE OF ORIGINAL DATA//
+        System.out.println(message);
+
     }
 }
