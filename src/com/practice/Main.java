@@ -57,16 +57,38 @@ public class Main {
 //    }
 //}
 
-public class Main{
+//public class Main{
+//    public static void main(String[] args){
+//        String message = "Hello world my name is George";
+//
+//            //EVEN WITH CHANGE TO METHOD IT STILL REMAINS ORIGINAL IN MEMORY//
+//        System.out.println(message.toUpperCase());
+//        System.out.println(message.length());
+//
+//        //EXAMPLE OF REMAINS A STORAGE OF ORIGINAL DATA//
+//        System.out.println(message);
+//
+//    }
+//}
+
+import java.util.Arrays;
+
+//ARRAYS PRACTICE []//
+public class Main {
     public static void main(String[] args){
-        String message = "Hello world my name is George";
+        //EX 1
 
-            //EVEN WITH CHANGE TO METHOD IT STILL REMAINS ORIGINAL IN MEMORY//
-        System.out.println(message.toUpperCase());
-        System.out.println(message.length());
+//        int[] numbers = new int[5];
+//        numbers[0] = 1;
+//        numbers[1] = 2;
+//        System.out.println(Arrays.toString(numbers));
 
-        //EXAMPLE OF REMAINS A STORAGE OF ORIGINAL DATA//
-        System.out.println(message);
+        //EX 2
+//ARRAYS HAVE A FIXED LENGTH CANNOT ADD OR REMOVE TO IT//
+        int[] numbers = {3,2,1,5,4};
+        Arrays.sort(numbers);
 
+//        System.out.println(numbers.length);
+        System.out.println(Arrays.toString(numbers));
     }
 }
