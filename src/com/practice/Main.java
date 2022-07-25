@@ -74,8 +74,8 @@ public class Main {
 import java.util.Arrays;
 
 //ARRAYS PRACTICE []//
-public class Main {
-    public static void main(String[] args){
+//public class Main {
+//    public static void main(String[] args){
         //EX 1
 
 //        int[] numbers = new int[5];
@@ -85,10 +85,26 @@ public class Main {
 
         //EX 2
 //ARRAYS HAVE A FIXED LENGTH CANNOT ADD OR REMOVE TO IT//
-        int[] numbers = {3,2,1,5,4};
-        Arrays.sort(numbers);
+//        int[] numbers = {3,2,1,5,4};
+//        Arrays.sort(numbers);
 
 //        System.out.println(numbers.length);
-        System.out.println(Arrays.toString(numbers));
+//        System.out.println(Arrays.toString(numbers));
+//    }
+//}
+
+//MULTI DIMENSIONAL ARRAY [][] CAN ALSO ADD ONE TO MAKE THREE DIMENSIONAL ARRAY[][][]//
+public class Main{
+    public static void main (String[] args){
+        //[][] IS A ROW AND COLUMN EXAMPLE [1,0,0], [0,0,0] THIS HAS 2 ROWS AND IN EACH ROW 3 COLUMNS//
+//        int[][] numbers = new int[2][3];
+//        numbers[0][0]= 1;
+
+        //EXAMPLE BELOW WILL NOT WORK FOR MULTI DIM ARRAYS YOU CAN USE deepToString//
+//        System.out.println(Arrays.toString(numbers));
+
+        //PREFERRED WAY TO COMPLETE
+        int[][] numbers = {{2,4,3,5,1},{7,6,9,8,10}};
+        System.out.println(Arrays.deepToString(numbers));
     }
 }
