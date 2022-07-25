@@ -4,12 +4,11 @@ package com.practice;
 //STRINGS ARE IMMUTABLE AS ANY REFERENCE TYPE IT WILL STORE DATA IN OBJECT//
 
 //PRIMITIVE VALUES ARE COMPLETELY INDEPENDENT WHERE REFERENCE IS DATA STORED TO THAT CLASS//
+
 /*public class Main {
     public static void main (String[] args){
         byte georgeAge = 32;
         String ownerName = "George";
-
-
 
         System.out.println(georgeAge + "\n"+ ownerName);
     }
@@ -30,7 +29,6 @@ public class Main {
         System.out.println(letter+"\n" + price);
     }
 }*/
-
 
 //REFERENCE TYPE IS TO STORE COMPLEX OBJECTS WHERE PRIMITIVE IS SIMPLE VALUES//
 //import java.util.Date;
@@ -71,7 +69,7 @@ public class Main {
 //    }
 //}
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 //ARRAYS PRACTICE []//
 //public class Main {
@@ -94,8 +92,8 @@ import java.util.Arrays;
 //}
 
 //MULTI DIMENSIONAL ARRAY [][] CAN ALSO ADD ONE TO MAKE THREE DIMENSIONAL ARRAY[][][]//
-public class Main{
-    public static void main (String[] args){
+//public class Main{
+//    public static void main (String[] args){
         //[][] IS A ROW AND COLUMN EXAMPLE [1,0,0], [0,0,0] THIS HAS 2 ROWS AND IN EACH ROW 3 COLUMNS//
 //        int[][] numbers = new int[2][3];
 //        numbers[0][0]= 1;
@@ -104,7 +102,28 @@ public class Main{
 //        System.out.println(Arrays.toString(numbers));
 
         //PREFERRED WAY TO COMPLETE
-        int[][] numbers = {{2,4,3,5,1},{7,6,9,8,10}};
-        System.out.println(Arrays.deepToString(numbers));
+//        int[][] numbers = {{2,4,3,5,1},{7,6,9,8,10}};
+//        System.out.println(Arrays.deepToString(numbers));
+//    }
+//}
+
+public class Main {
+    public static void main(String[] args){
+
+        //EXAMPLE BELOW IS AN EXPRESSION BECAUSE IT PRODUCES A VALUE//
+
+//        float result = (float)10 / (float)3;
+//        System.out.println(result);
+
+
+//        int x = 3;
+//        x++;
+
+        int x = 3;
+        int y = x++;
+
+        System.out.println(x);
+        System.out.println(y);
     }
 }
+
