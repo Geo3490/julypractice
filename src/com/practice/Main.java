@@ -31,10 +31,12 @@ public class Main {
 }*/
 
 //REFERENCE TYPE IS TO STORE COMPLEX OBJECTS WHERE PRIMITIVE IS SIMPLE VALUES//
+
 //import java.util.Date;
-//
+
 //public class Main {
 //    public static void main (String[] args){
+
 //        //REFERENCE TYPE EXAMPLE DATE//
 //        Date now = new Date();
 //        System.out.println(now);
@@ -107,8 +109,8 @@ public class Main {
 //    }
 //}
 
-public class Main {
-    public static void main(String[] args){
+//public class Main {
+//    public static void main(String[] args){
 
         //EXAMPLE BELOW IS AN EXPRESSION BECAUSE IT PRODUCES A VALUE//
 
@@ -119,11 +121,36 @@ public class Main {
 //        int x = 3;
 //        x++;
 
-        int x = 3;
-        int y = x++;
+//        int x = 3;
+//        int y = x++;
+//
+//        System.out.println(x);
+//        System.out.println(y);
 
-        System.out.println(x);
-        System.out.println(y);
+
+//    }
+//}
+
+import java.util.Locale;
+
+//public class Main {
+//    public static void main(String[] args){
+//        String name = "susan";
+////        System.out.println(name.toUpperCase());
+//        addExclamationPoint(name.toUpperCase());
+//
+//    }
+//    public static void addExclamationPoint(String s){
+//        System.out.println(s + "!");
+//    }
+//}
+
+public class Main {
+
+    public static void main(String[] args){
+   Practice2 a = new Practice2();
+   int number = a.myNumber();
+        System.out.println(number);
+
     }
 }
-
