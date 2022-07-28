@@ -131,7 +131,7 @@ public class Main {
 //    }
 //}
 
-import java.util.Locale;
+import java.util.Scanner;
 
 //public class Main {
 //    public static void main(String[] args){
@@ -145,12 +145,29 @@ import java.util.Locale;
 //    }
 //}
 
-public class Main {
+//public class Main {
+//
+//    public static void main(String[] args){
+//
+//
+//
+//Scanner scanner = new Scanner(System.in);
+//        System.out.print("Name ");
+//
+//        String response = scanner.nextLine().trim();
+//        System.out.println("You are " + response);
+//    }
+//}
 
-    public static void main(String[] args){
-   Practice2 a = new Practice2();
-   int number = a.myNumber();
-        System.out.println(number);
+public class Main {
+    public static void main(String[] args) {
+
+  Scanner scanner = new Scanner(System.in);
+        System.out.println("name");
+
+
+
 
     }
+
 }
