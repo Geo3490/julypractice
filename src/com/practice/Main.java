@@ -161,13 +161,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        int ofAge = 18;
+        boolean isOfAge = true;
+        boolean notOfAge = false;
 
-  Scanner scanner = new Scanner(System.in);
-        System.out.println("name");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("What's your name ? ");
+
+        String response = scanner.nextLine().trim();
+        System.out.println("Hello, " + response + " " + "nice to meet you!!");
+
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.print("What's your age ? ");
 
 
+        String response2 = scanner.nextLine().trim();
+        System.out.println("Ahhh You're " + response2 + " Years old.");
 
-
+        }
     }
 
-}
