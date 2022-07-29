@@ -5,30 +5,30 @@ package com.practice;
 
 //PRIMITIVE VALUES ARE COMPLETELY INDEPENDENT WHERE REFERENCE IS DATA STORED TO THAT CLASS//
 
-/*public class Main {
-    public static void main (String[] args){
-        byte georgeAge = 32;
-        String ownerName = "George";
-
-        System.out.println(georgeAge + "\n"+ ownerName);
-    }
-}*/
+//public class Main {
+//    public static void main (String[] args){
+//        byte georgeAge = 32;
+//        String ownerName = "George";
+//
+//        System.out.println(georgeAge + "\n"+ ownerName);
+//    }
+//}
 
                 //EXAMPLE PRACTICE JULY 2022//
 //Use Primitive Types As Listed Below To Store Simple Values.
 
-/*
-public class Main {
-    public static void main (String[] args){
-        byte age = 32;
-        long viewsCount = 3_123_456_789L;
-        float price = 10.99F;
-        char letter = 'A';
-        boolean isEligible = false;
-
-        System.out.println(letter+"\n" + price);
-    }
-}*/
+//
+//public class Main {
+//    public static void main (String[] args){
+//        byte age = 32;
+//        long viewsCount = 3_123_456_789L;
+//        float price = 10.99F;
+//        char letter = 'A';
+//        boolean isEligible = false;
+//
+//        System.out.println(letter+"\n" + price);
+//    }
+//}
 
 //REFERENCE TYPE IS TO STORE COMPLEX OBJECTS WHERE PRIMITIVE IS SIMPLE VALUES//
 
@@ -131,9 +131,9 @@ public class Main {
 //    }
 //}
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-//public class Main {
+// public class Main {
 //    public static void main(String[] args){
 //        String name = "susan";
 ////        System.out.println(name.toUpperCase());
