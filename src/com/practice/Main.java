@@ -224,13 +224,22 @@ package com.practice;
 //    }
 //}
 
-import java.util.Arrays;
-
-public class Main  {
+//import java.util.Arrays;
+//
+//public class Main  {
+//    public static void main(String[] args) {
+//
+//        int[] numbers = new int[6];
+//        numbers[0] = 10;
+//        numbers[1] = 20;
+//        System.out.println(Arrays.toString(numbers));
+//
+//    }
+//}
+public class Main{
     public static void main(String[] args) {
-
-        int[] numbers = new int[6];
-        System.out.println(Arrays.toString(numbers));
-
+Array numbers = new Array(4);
+        numbers.Print();
     }
-}
+        }
+
