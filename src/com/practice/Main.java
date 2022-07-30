@@ -196,15 +196,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+
+        //Note with the for each loop you can only move forward in iteration not back, otherwise use a for loop//
+        //For loops will allow you to access index [i] of an array.
 
         String[] names = {"George, Greg, Pinky"};
-        int ageReq = 18;
+        int ageRequired = 18;
 
 
         for (String name: names ) {
             System.out.println(name);
-
         }
 
 
