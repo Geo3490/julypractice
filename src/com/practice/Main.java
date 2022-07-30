@@ -211,21 +211,26 @@ package com.practice;
 //    }
 //}
 
-import java.util.Scanner;
+//import java.util.Scanner;
+//
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner inputName = new Scanner(System.in);
+//        String username = "George";
+//
+//        System.out.print("Name ");
+//        String name = inputName.nextLine().trim();
+//
+//    }
+//}
 
-public class Main{
+import java.util.Arrays;
+
+public class Main  {
     public static void main(String[] args) {
-        Scanner inputName = new Scanner(System.in);
-        String username = "George";
-        boolean correct = true;
-        boolean incorrect = false;
 
-        System.out.print("Name ");
-        String name = inputName.nextLine().trim();
+        int[] numbers = new int[6];
+        System.out.println(Arrays.toString(numbers));
 
-        while(true ){
-
-            break;
-        }
     }
 }
