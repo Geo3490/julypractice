@@ -192,23 +192,40 @@ package com.practice;
 //    }
 //}
 
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        //Note with the for each loop you can only move forward in iteration not back, otherwise use a for loop//
+//        //For loops will allow you to access index [i] of an array.
+//
+//        String[] names = {"George, Greg, Pinky"};
+//        int ageRequired = 18;
+//
+//
+//        for (String name: names ) {
+//            System.out.println(name);
+//        }
+//    }
+//}
+
 import java.util.Scanner;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner inputName = new Scanner(System.in);
+        String username = "George";
+        boolean correct = true;
+        boolean incorrect = false;
 
-        //Note with the for each loop you can only move forward in iteration not back, otherwise use a for loop//
-        //For loops will allow you to access index [i] of an array.
+        System.out.print("Name ");
+        String name = inputName.nextLine().trim();
 
-        String[] names = {"George, Greg, Pinky"};
-        int ageRequired = 18;
+        while(true ){
 
-
-        for (String name: names ) {
-            System.out.println(name);
+            break;
         }
-
-
     }
-        }
+}
