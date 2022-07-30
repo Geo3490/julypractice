@@ -183,11 +183,30 @@ package com.practice;
 //    }
 //}
 
-public class Main {
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        for (int i = 10; i >= 1; i--){
+//            System.out.println(i);
+//        }
+//    }
+//}
 
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
-        for (int i = 10; i >= 1; i--){
-            System.out.println(i);
+        Scanner scan = new Scanner(System.in);
+
+        String[] names = {"George, Greg, Pinky"};
+        int ageReq = 18;
+
+
+        for (String name: names ) {
+            System.out.println(name);
+
         }
+
+
     }
-}
+        }
