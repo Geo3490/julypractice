@@ -226,6 +226,9 @@ package com.practice;
 
 //import java.sql.Array;
 
+import java.sql.Array;
+import java.util.Scanner;
+
 //import java.util.Arrays;
 //
 //public class Main  {
@@ -240,7 +243,19 @@ package com.practice;
 //}
 public class Main{
     public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        System.out.print("Name ");
+        String name = userInput.nextLine().trim();
 
+        System.out.print("Age ");
+        int age = userInput.nextInt();
+
+        if (age != 32) {
+            System.out.println("You're Not George!!!!");
+        } else {
+
+            System.out.println("Hello " + name + " your age is " + age);
+        }
     }
 }
 
