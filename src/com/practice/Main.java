@@ -224,6 +224,8 @@ package com.practice;
 //    }
 //}
 
+//import java.sql.Array;
+
 //import java.util.Arrays;
 //
 //public class Main  {
@@ -238,8 +240,7 @@ package com.practice;
 //}
 public class Main{
     public static void main(String[] args) {
-Array numbers = new Array(4);
-        numbers.Print();
+
     }
-        }
+}
 
